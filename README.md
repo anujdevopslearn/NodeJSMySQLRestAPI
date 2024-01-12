@@ -25,6 +25,7 @@ npm run start
 Connect to MySQL instance and create database and table as per below:
 
 create database testdb;
+use testdb;
 
 CREATE TABLE IF NOT EXISTS `tutorials` (
   id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
