@@ -33,3 +33,7 @@ CREATE TABLE IF NOT EXISTS `tutorials` (
   description varchar(255),
   published boolean DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Once Table is created update application source code and then deploy again by editing below file:
+
+src/config/db.config.ts
